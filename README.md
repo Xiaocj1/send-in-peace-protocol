@@ -12,10 +12,15 @@ A socio-technical protocol proposal to address **context collapse** and **digita
 I (the initial author) do one thing: **hand over this repository's administrative rights to three community-elected stewards when conditions are met.**
 
 ### The Transition Protocol (Immutable Rules)
-1.  **Trigger:** When this repository reaches **100 Stars**.
-2.  **Selection:** The 5 users ranked **2nd to 6th** on the Star list (excluding me) become "Blueprint Commissioners."
-3.  **Contest:** These 5 commissioners have **14 days** to submit their "Send in Peace Protocol Development Blueprint" in a designated Issue.
-4.  **Election:** After submission, a **7-day community vote** is held. All contributors who have submitted a PR before the vote are eligible. Vote to select 3 out of 5.
+1.  **Trigger (Dual-Path):** Transition is triggered when **ANY ONE** of the following occurs:
+    - **A. Consensus Attention:** This repository reaches **100 Stars**.
+    - **B. Proof of Building:** A **verified working implementation** of the protocol principles is submitted via an `[Implementation]` Issue, and remains unchallenged for **14 days**.
+2.  **Selection:** Upon trigger, the **5 users** who are (in order of priority):
+    a. The **builder(s)** who submitted the triggering implementation (if triggered by Path B), **OR**
+    b. Ranked **2nd to 6th** on the Star list at trigger time (if triggered by Path A, or if Path B has no identifiable builder).
+    These 5 become "Blueprint Commissioners."
+3.  **Contest:** Commissioners have **14 days** to submit their **"Send in Peace Protocol Development Blueprint"** in a designated Issue.
+4.  **Election:** After submission, a **7-day community vote** is held. All contributors (PR submitters before the vote) are eligible to **vote to select 3 out of 5** commissioners.
 5.  **Handover:** The top 3 vote-getters receive repository admin rights.
 6.  **My Final Role:** After handover, I retain only the right to arbitrate on violations of the core principles in [GENESIS.md](GENESIS.md) using a pre-embedded PGP key.
 
@@ -23,13 +28,14 @@ I (the initial author) do one thing: **hand over this repository's administrativ
 - **To understand the problem & vision:** Read the [Whitepaper](Whitepaper/en.md).
 - **To understand the core principles:** Read [GENESIS.md](GENESIS.md).
 - **To contribute:** The most meaningful contribution is **to start your own implementation.** Create your own repo, build your vision, and state it's "inspired by the Send in Peace Protocol principles."
-- **To trigger the experiment:** **Star this repo.** Help reach 100 to witness and participate in a fully transparent, rule-based governance handover.
+- **To trigger the experiment:** **Star this repo** or **Build the first implementation.** Help us reach the threshold to witness and participate in a fully transparent, rule-based governance handover.
 
 ## 📁 Repository Structure
 ```
 .
 ├── README.md          # This file. The "constitution" of the handover process.
 ├── GENESIS.md         # The three immutable principles of the protocol.
+├── GOVERNANCE_TRANSITION.md # Detailed explanation of the transition logic.
 ├── CONTRIBUTING.md    # Explains what this repo is and isn't for.
 └── Whitepaper/        # The intellectual origin.
     ├── en.md          # Full whitepaper (English)
