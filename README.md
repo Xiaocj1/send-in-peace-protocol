@@ -41,18 +41,19 @@ We believe in showing, not just telling. Each month, we explore a different aspe
 *How would you design the experience of switching between your "Work", "Family", and "True Self" personas?*
 
 ## 📁 Repository Structure
-├── README.md # This file. The "constitution" of the handover.
-├── GENESIS.md # The three immutable protocol principles.
-├── GOVERNANCE_TRANSITION.md # Detailed transition logic.
-├── CONTRIBUTING.md # How to contribute meaningfully.
-├── ROADMAP.md # Evolving 12-month community roadmap.
-├── Prototype-Gallery/ # Monthly design challenges & prototypes.
-│ └── 2026-02-Identity-Switcher/
-├── Whitepaper/ # The intellectual foundation.
-│ ├── en.md # International version (global case studies)
-│ └── zh-Hans.md # Chinese version
-└── Implementations/ # Community implementation showcases (forthcoming)
-
+```
+├── README.md                   # This file. The "constitution" of the handover.
+├── GENESIS.md                  # The three immutable protocol principles.
+├── GOVERNANCE_TRANSITION.md    # Detailed transition logic.
+├── CONTRIBUTING.md             # How to contribute meaningfully.
+├── ROADMAP.md                  # Evolving 12-month community roadmap.
+├── Prototype-Gallery/          # Monthly design challenges & prototypes.
+│   └── 2026-02-Identity-Switcher/
+├── Whitepaper/                 # The intellectual foundation.
+│   ├── en.md                   # International version (global case studies)
+│   └── zh-Hans.md              # Chinese version
+└── Implementations/            # Community implementation showcases (forthcoming)
+```
 
 ## ❓ Why This Design?
 This is a **real-time test**: Can a compelling vision + fair initial rules + a clear MVP-first strategy = a self-assembling community?
