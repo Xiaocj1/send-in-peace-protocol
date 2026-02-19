@@ -254,7 +254,7 @@ OSI缺的这一层，我们一起补。
 
 *这个协议属于任何需要它的人。规则是唯一的权威。*
 
-**GitHub：** [identity-layer](https://github.com/identity-layer)  
+**GitHub：** [identity-layer](https://github.com/Xiaocj1/identity-layer)  
 **PRD发源地：** [人人都是产品经理](https://www.woshipm.com)  
 **砍功能现场：** [`/discussions/categories/rd-cuts`](/discussions/categories/rd-cuts)
 
@@ -501,7 +501,7 @@ The OSI model is missing a layer. Let's build it together.
 
 *This protocol belongs to anyone who needs it. The rules are the only authority.*
 
-**GitHub：** [identity-layer](https://github.com/identity-layer)  
+**GitHub：** [identity-layer](https://github.com/Xiaocj1/identity-layer)  
 **PRD Origin：** [人人都是产品经理](https://www.woshipm.com)  
 **Cutting Floor：** [`/discussions/categories/rd-cuts`](/discussions/categories/rd-cuts)
 
